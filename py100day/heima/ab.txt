@@ -1,0 +1,12 @@
+ssmy dear i love you
+# print ('-----test--1---')
+# open('123.txt','r')
+# print ('-----test--2---')
+#import time
+
+    # try:
+    #     f = file('poem.txt')
+    #     while True: # our usual file-reading idiom
+    #         line = f.readline()
+    #         if len(line) == 0:
+    #             break

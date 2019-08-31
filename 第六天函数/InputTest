@@ -1,0 +1,13 @@
+a = int(input("请输入......"))
+b = int(input("请输入......"))
+c = int(input("请输入......"))
+
+
+def avg(a, b, c):
+    return a + b + c
+
+
+result = avg(a, b, c) / 3
+print("平均值是%d" % result)
+string = str(input("输入一个字符串......"))
+print("你输入的字符串是%s" % string)

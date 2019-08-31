@@ -1,0 +1,9 @@
+old_file_name=input('请输入你的文件名.......')
+f_read=open(old_file_name,"r")
+position=old_file_name.rfind(".")
+new_file_name=old_file_name[1:position]+"[附件]"+old_file_name
+f_write=open(new_file_name,"w")
+content=f_read.read()
+f_write.write(content)
+f_read.close()
+f_write.close()
