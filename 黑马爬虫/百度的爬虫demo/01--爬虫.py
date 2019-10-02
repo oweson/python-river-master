@@ -1,5 +1,7 @@
 from urllib import request
 import re
+
+
 # 引入正则表达式
 
 def getResponse(url):
@@ -8,7 +10,8 @@ def getResponse(url):
     print("这个对象的方法是：", url_request.get_method())
 
     # 2 上下文管理器，HTTPResponse 对象，包含一系列方法
-    url_response = request.urlopen(url)  # 打开一个url或者一个Request对象
+    url_response = request.urlopen(url)
+    # 打开一个url或者一个Request对象
     '''
        geturl()：返回 full_url地址
          info(): 返回页面的元(Html的meta标签)信息
@@ -35,5 +38,5 @@ url = http_response.geturl()
 print(url)
 print(http_response.info())
 print("--------------------------------------")
-print(http_response.getcode())
 print(http_response.read().decode("utf-8"))
+print(http_response.getcode)
